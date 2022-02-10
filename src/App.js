@@ -5,15 +5,15 @@ import { TaskField } from './components/TaskField';
 function App() {
   const [tasks, setTasks] = React.useState([
     {
-      text: 'Изучить ReactJS',
+      text: 'Изучить JS, React/Redux, Scss/Sass, Gulp',
       completed: true,
     },
     {
-      text: 'Разработать ToDo на ReactJS',
+      text: 'Изучить Ts, Jwt, Pwa, Rest api, NodeJS, GraphQL',
       completed: false,
     },
     {
-      text: 'Deploy ToDo ReactJS',
+      text: 'PERN, MERN. Websocket Webpack, Docker ',
       completed: false,
     }
   ]);
